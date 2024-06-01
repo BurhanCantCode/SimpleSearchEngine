@@ -1,5 +1,5 @@
 !pip install Flask pyngrok flask-socketio requests openai google-cloud-vision google-api-python-client
-!ngrok authtoken 2h6jsp1dspbBuVlwKXwy65uyKMg_6SPEra9sAbGiKo1ydxqt3
+!ngrok authtoken (dm me for it)
 
 import os
 import json
@@ -16,8 +16,8 @@ socketio = SocketIO(app)
 
 # Set up the Custom Search JSON API endpoint and parameters
 API_ENDPOINT = 'https://www.googleapis.com/customsearch/v1'
-API_KEY = 'AIzaSyCmO5hd0NfYV0yaePAva9PKhb4_IN1CdB8'  # Replace with your actual API key
-SEARCH_ENGINE_ID = 'e234c1bc0eb474a40'  # Replace with your actual search engine ID
+API_KEY = '(dm me for it)'  # Replace with your actual API key
+SEARCH_ENGINE_ID = '(dm me for it)'  # Replace with your actual search engine ID
 
 # Set up the Cloud Vision API client
 vision_client = discovery.build('vision', 'v1', developerKey=API_KEY)
